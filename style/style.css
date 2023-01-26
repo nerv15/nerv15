@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ground {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px;
+    box-shadow: 0 0 5px 0 purple;
+}
+.box {
+    width: 15px;
+    height: 15px;
+    background: rgb(52, 60, 60);
+    box-shadow: 0 0 2px 0 red;
+    transition: 2s;
+}
+
+.box:hover {
+    transition-duration: 0ms;
+}
